@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prime Checker Results</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Prime Number Checker</h1>
+  <input id="min-number-input" type="number" placeholder="From">
+  <input id="max-number-input" type="number" placeholder="To">
+  <button id="check-button">Check Numbers</button>
+  <table>
+    <thead id="tablehead1">
+      <tr>
+        <th>Number</th>
+        <th>Prime</th>
+        <th>Time (ms)</th>
+      </tr>
+    </thead>
+    <tbody id="results"></tbody>
+  </table>
+  <table>
+    <tbody id="detailed-results-1"></tbody>
+    <tbody id="detailed-results-2"></tbody>
+  </table>
+  <button id="show-details-button">Show-Details</button>
+  <button id="hide-details-button">Hide-Details</button>
+  <script src="script.js"></script>
+</body>
+</html>
